@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+      <title>Document</title>
+   </head>
+   <body>
+    
+      <div class="container">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+            <img src="images/logo-bs-aufgabe.png" width="40" height="40" alt="Bootstrap">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+               <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Über uns</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Leistungen</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Kontakt</a>
+                  </li>
+               </ul>
+               <form class="d-flex">
+                  <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+               </form>
+            </div>
+         </nav>
+         <!---Row-->
+         <div class="row">
+            <div class="col-xs-12 col-sm-4 col-lg-3 ">
+               <!---Jumbotron Hallo Welt-->
+               <div class="jumbotron">
+                  <h1 class="display-4">Hallo, Welt!</h1>
+                  <p class="lead">Jumbotron ist flexibel</p>
+                  <hr class="my-4">
+                  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                  <a class="btn btn-outline-primary " href="#" role="button">Learn more</a>
+               </div>
+            </div>
+            <!--Row-->
+            <div class="col-xs-12 col-sm-4 col-lg-6 ">
+               <!--Card-->
+               <div class="container">
+                  <div class="card mycard border-primary">
+                     <img src="images/canote-mexico-klein.jpg"  class="card-img-top img-fluid" alt="canote">
+                     <div class="card-body">
+                        <h4 class="card-title">Cenote</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                           ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
+                           montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium 
+                           quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 
+                           vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+                        </p>
+                        <a href="https://sonne-wolken.de/schoensten-cenoten-yucatan-mexiko/" class="btn btn-outline-primary" role="button">Über Cenote</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--Row-->
+            <div class="col-xs-12 col-sm-4 col-lg-3 ">
+               <!--Liste-->
+               <ul class="list-group">
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                     <span class="badge badge-primary badge-pill">21</span>Element 1
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                     <span class="badge badge-primary badge-pill">22</span>
+                     Element 2
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                     <span class="badge badge-primary badge-pill">23</span>
+                     Element 3
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                     <span class="badge badge-primary badge-pill">24</span>
+                     Element 4
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                     <span class="badge badge-primary badge-pill">25</span>
+                     Element 5
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                     <span class="badge badge-primary badge-pill">26</span>
+                     Element 6
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                     <span class="badge badge-primary badge-pill">27</span>
+                     Element 7
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                     <span class="badge badge-primary badge-pill">28</span>
+                     Element 8
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                     <span class="badge badge-primary badge-pill">29</span>
+                     Element 9
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+     <!-- Optional JavaScript -->
+    <!-- erst jQuery, dann Popper JS, dann Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>
